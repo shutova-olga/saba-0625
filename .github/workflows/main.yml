@@ -21,6 +21,7 @@ jobs:
 
       - name: Process Markdown files
         run: |
+          mkdir -p docs
           mkdir -p docs/diagrams
           counter=1
           for file in $(find . -name "*.md" ! -path "./docs/*"); do
