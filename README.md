@@ -1,5 +1,5 @@
 # saba-0625
 Learning git flow
 
-- [Папка для компонентных диаграмм](/component_diagrams)
+- [Газпром](/gazprom.md)
 - [Пример диаграммы](/component_diagrams/example.md)
