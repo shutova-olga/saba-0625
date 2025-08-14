@@ -1,4 +1,5 @@
 Преза по газовому промыслу
+
 ```
 @startuml
 title Система регистрации инцидентов на газовом промысле
@@ -23,5 +24,5 @@ Kafka --> EQ : События / интеграция
 Kafka --> BI : События / интеграция
 
 @enduml
+```
 
-```<img width="455" height="400" alt="image" src="https://github.com/user-attachments/assets/7883ad37-b533-49cb-99f4-c8d3453e17e7" />
