@@ -11,10 +11,13 @@ jobs:
   render:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
-      - name: Install tools
-        run: sudo apt-get update && sudo apt-get install -y plantuml python3
+      - name: Install PlantUML
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y plantuml
 
       - name: Process Markdown files
         run: |
@@ -35,25 +38,4 @@ jobs:
               fi
               if [[ "$line" == '```' && $inside_block -eq 1 ]]; then
                 echo "@enduml" >> puml_tmp.txt
-                plantuml -tsvg puml_tmp.txt -o "$(dirname "docs/$diagram_file")"
-                echo "<img src=\"$diagram_file\">" >> "$tmpfile"
-                rm puml_tmp.txt
-                inside_block=0
-                continue
-              fi
-              if [[ $inside_block -eq 1 ]]; then
-                echo "$line" >> puml_tmp.txt
-              else
-                echo "$line" >> "$tmpfile"
-              fi
-            done < "$file"
-            mv "$tmpfile" "$output_file"
-          done
-
-      - name: Commit generated site
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs
-          git commit -m "Update rendered diagrams in docs" || echo "No changes to commit"
-          git push
+                plantuml -ts
