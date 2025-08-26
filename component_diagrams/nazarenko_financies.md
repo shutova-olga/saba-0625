@@ -1,3 +1,4 @@
+```
 @startuml
 title Система генерации персональных финансовых отчетов
 
@@ -27,3 +28,4 @@ Forecasting --> Visualization : прогнозные графики
 Import --> BankAPI : запросы транзакций
 BankAPI --> Import : ответ от банка
 @enduml
+```
