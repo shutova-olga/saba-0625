@@ -1,3 +1,4 @@
+```
 @startuml
 skinparam linetype ortho
 
@@ -60,3 +61,4 @@ note left of DB
       история действий, каталог товаров/контента
     end note
 @enduml
+```
