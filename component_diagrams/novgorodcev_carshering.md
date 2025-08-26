@@ -1,3 +1,4 @@
+```
 @startuml
 title  Компонентная диаграмма системы каршеринга
 
@@ -52,3 +53,4 @@ Billing --> CRM
 Vehicles --> Booking
 
 @enduml
+```
