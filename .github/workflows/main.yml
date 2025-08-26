@@ -56,6 +56,14 @@ jobs:
             mv "$tmpfile" "$output_file"
           done
 
+      - name: Generate index.html
+        run: |
+          echo "<h1>Список файлов</h1><ul>" > docs/index.html
+          find docs -type f | sed 's#docs/##' | while read file; do
+            echo "<li><a href=\"$file\">$file</a></li>" >> docs/index.html
+          done
+          echo "</ul>" >> docs/index.html
+
       - name: Commit generated site
         run: |
           git config user.name "github-actions[bot]"
