@@ -39,4 +39,27 @@ jobs:
               fi
               if [[ "$line" == '```' && $inside_block -eq 1 ]]; then
                 echo "@enduml" >> puml_tmp.txt
-                plantuml -ts
+                # генерим svg в папку docs/diagrams
+                plantuml -tsvg puml_tmp.txt -o docs/diagrams
+                mv docs/diagrams/puml_tmp.svg "docs/$diagram_file"
+                echo "<img src=\"$diagram_file\">" >> "$tmpfile"
+                rm puml_tmp.txt
+                inside_block=0
+                continue
+              fi
+              if [[ $inside_block -eq 1 ]]; then
+                echo "$line" >> puml_tmp.txt
+              else
+                echo "$line" >> "$tmpfile"
+              fi
+            done < "$file"
+            mv "$tmpfile" "$output_file"
+          done
+
+      - name: Commit generated site
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git commit -m "Update rendered diagrams in docs" || echo "No changes to commit"
+          git push
