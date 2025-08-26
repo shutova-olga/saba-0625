@@ -10,7 +10,7 @@ Bob --> Alice: Hi
 ```
 
 ## Диаграмма 2
-```
+```plantuml
 @startuml
 actor User
 User -> System: Запрос
@@ -19,7 +19,7 @@ System --> User: Ответ
 ```
 
 ## Диаграмма 3
-```
+```plantuml
 @startuml
 class Car {
   +String model
