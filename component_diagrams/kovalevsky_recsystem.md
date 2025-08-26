@@ -1,4 +1,4 @@
-```
+```plantuml
 @startuml
 skinparam linetype ortho
 
