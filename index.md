@@ -1,7 +1,6 @@
 # Проверка рендера PlantUML
 
 ## Диаграмма 1
-
 ```plantuml
 @startuml
 Alice -> Bob: Hello
