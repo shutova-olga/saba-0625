@@ -1,1 +1,1 @@
-<img src="diagrams/diagram_3.svg">
+<img src="diagrams/diagram_6.svg">

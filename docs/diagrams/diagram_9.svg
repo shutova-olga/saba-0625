@@ -1,14 +1,75 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="201px" preserveAspectRatio="none" style="width:116px;height:201px;" version="1.1" viewBox="0 0 116 201" width="116px" zoomAndPan="magnify"><defs><filter height="300%" id="fdv44nwb6orfx" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[3f0ef310aaa84a542276992c5216544d]
-class Car--><rect fill="#FEFECE" filter="url(#fdv44nwb6orfx)" height="73.6094" id="Car" style="stroke: #A80036; stroke-width: 1.5;" width="99" x="6" y="8"/><ellipse cx="41.7" cy="24" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M44.6688,29.6406 Q44.0906,29.9375 43.45,30.0781 Q42.8094,30.2344 42.1063,30.2344 Q39.6063,30.2344 38.2781,28.5938 Q36.9656,26.9375 36.9656,23.8125 Q36.9656,20.6875 38.2781,19.0313 Q39.6063,17.375 42.1063,17.375 Q42.8094,17.375 43.45,17.5313 Q44.1063,17.6875 44.6688,17.9844 L44.6688,20.7031 Q44.0438,20.125 43.45,19.8594 Q42.8563,19.5781 42.2313,19.5781 Q40.8875,19.5781 40.2,20.6563 Q39.5125,21.7188 39.5125,23.8125 Q39.5125,25.9063 40.2,26.9844 Q40.8875,28.0469 42.2313,28.0469 Q42.8563,28.0469 43.45,27.7813 Q44.0438,27.5 44.6688,26.9219 L44.6688,29.6406 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="21" x="60.3" y="28.1543">Car</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="104" y1="40" y2="40"/><ellipse cx="17" cy="51" fill="none" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="73" x="26" y="54.2104">String model</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="104" y1="60.8047" y2="60.8047"/><ellipse cx="17" cy="71.8047" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="36" x="26" y="75.0151">drive()</text><!--MD5=[c86ce95fe6226f2d2796c0513d8e83fe]
-class Engine--><rect fill="#FEFECE" filter="url(#fdv44nwb6orfx)" height="48" id="Engine" style="stroke: #A80036; stroke-width: 1.5;" width="75" x="18" y="142"/><ellipse cx="33" cy="158" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M35.9688,163.6406 Q35.3906,163.9375 34.75,164.0781 Q34.1094,164.2344 33.4063,164.2344 Q30.9063,164.2344 29.5781,162.5938 Q28.2656,160.9375 28.2656,157.8125 Q28.2656,154.6875 29.5781,153.0313 Q30.9063,151.375 33.4063,151.375 Q34.1094,151.375 34.75,151.5313 Q35.4063,151.6875 35.9688,151.9844 L35.9688,154.7031 Q35.3438,154.125 34.75,153.8594 Q34.1563,153.5781 33.5313,153.5781 Q32.1875,153.5781 31.5,154.6563 Q30.8125,155.7188 30.8125,157.8125 Q30.8125,159.9063 31.5,160.9844 Q32.1875,162.0469 33.5313,162.0469 Q34.1563,162.0469 34.75,161.7813 Q35.3438,161.5 35.9688,160.9219 L35.9688,163.6406 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="43" x="47" y="162.1543">Engine</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="19" x2="92" y1="174" y2="174"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="19" x2="92" y1="182" y2="182"/><!--MD5=[81348e79ed31ab560c01d4053cd4a360]
-link Car to Engine--><path d="M55.5,82.03 C55.5,99.48 55.5,120.15 55.5,136.49 " fill="none" id="Car-&gt;Engine" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="55.5,141.85,59.5,132.85,55.5,136.85,51.5,132.85,55.5,141.85" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[0b7a7bd5bc5991745d5a5f41a979fa4a]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="803px" preserveAspectRatio="none" style="width:883px;height:803px;" version="1.1" viewBox="0 0 883 803" width="883px" zoomAndPan="magnify"><defs><filter height="300%" id="f10ka5x8f74nys" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="509" x="198.5" y="16.708">Система управления логистикой складского робота</text><!--MD5=[9f1df972068e98a366d163444a58f0ce]
+cluster Складской робот--><rect fill="#FFFFFF" filter="url(#f10ka5x8f74nys)" height="748" style="stroke: #000000; stroke-width: 1.5;" width="625" x="22" y="44.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="143" x="263" y="59.9482">Складской робот</text><!--MD5=[1f9322eb61f9a4af09b9c3e4dbefb0a0]
+cluster Navigation--><rect fill="#FFFFFF" filter="url(#f10ka5x8f74nys)" height="103" style="stroke: #000000; stroke-width: 1.5;" width="350" x="265" y="95.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="157" x="361.5" y="110.9482">Система навигации</text><!--MD5=[c92432ea3d28a013dcef14eab14af41f]
+cluster Внешние системы--><rect fill="#FFFFFF" filter="url(#f10ka5x8f74nys)" height="87" style="stroke: #000000; stroke-width: 1.5;" width="201" x="671" y="356.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="150" x="696.5" y="371.9482">Внешние системы</text><!--MD5=[a0d5f6d12c4740265c8b8d9dcaab88b3]
+entity Movement--><rect fill="#FEFECE" filter="url(#f10ka5x8f74nys)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="190" x="363" y="740.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="358" y="745.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="358" y="767.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="170" x="373" y="763.9482">Контроллер движения</text><!--MD5=[d6ae217f7d9df4ef6fa6a4076a33204b]
+entity ChargingController--><rect fill="#FEFECE" filter="url(#f10ka5x8f74nys)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="175" x="455.5" y="583.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="450.5" y="588.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="450.5" y="610.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="155" x="465.5" y="606.9482">Контроллер зарядки</text><!--MD5=[808888ccec274174dfe9b233e5713e3e]
+entity Conditions--><rect fill="#FEFECE" filter="url(#f10ka5x8f74nys)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="167" x="216.5" y="583.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="211.5" y="588.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="211.5" y="610.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="147" x="226.5" y="606.9482">Монитор состояния</text><!--MD5=[17653d364bbf70ddff651f1e26aae335]
+entity AdapterWMS--><rect fill="#FEFECE" filter="url(#f10ka5x8f74nys)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="121" x="239.5" y="487.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="234.5" y="492.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="234.5" y="514.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="101" x="249.5" y="510.9482">Адаптер WMS</text><!--MD5=[08f7a00d71faf13c08629754422ad5e6]
+entity Tasks--><rect fill="#FEFECE" filter="url(#f10ka5x8f74nys)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="166" x="217" y="295.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="212" y="300.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="212" y="322.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="146" x="227" y="318.9482">Диспетчер задания</text><!--MD5=[3ff36782d88bcbec28674d5db246d162]
+entity Pathfinding--><rect fill="#FEFECE" filter="url(#f10ka5x8f74nys)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="199" x="38.5" y="138.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="33.5" y="143.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="33.5" y="165.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="179" x="48.5" y="161.9482">Планировщик маршрута</text><!--MD5=[2596564e44ab3aa47d7c167100f8b894]
+entity Map--><rect fill="#FEFECE" filter="url(#f10ka5x8f74nys)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="119" x="62.5" y="295.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="57.5" y="300.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="57.5" y="322.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="99" x="72.5" y="318.9482">Карта склада</text><!--MD5=[9cacda53069815fa726b097df65cccc8]
+entity Sensors--><rect fill="#FEFECE" filter="url(#f10ka5x8f74nys)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="190" x="401" y="138.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="396" y="143.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="396" y="165.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="170" x="411" y="161.9482">Управление сенсорами</text><!--MD5=[f74001fd5c6580d8e0a16ebf30d710e5]
+entity SLAM--><rect fill="#FEFECE" filter="url(#f10ka5x8f74nys)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="57" x="308.5" y="138.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="303.5" y="143.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="303.5" y="165.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="37" x="318.5" y="161.9482">SLAM</text><!--MD5=[6f28d2168c851b8686ca13bf8447b755]
+entity Charging--><rect fill="#FEFECE" filter="url(#f10ka5x8f74nys)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="80" x="776" y="391.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="771" y="396.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="771" y="418.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="60" x="786" y="414.9482">Зарядка</text><!--MD5=[533ac86ec1d3b8384f1deb17a1c78a61]
+entity WMS--><rect fill="#FEFECE" filter="url(#f10ka5x8f74nys)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="54" x="687" y="391.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="682" y="396.9531"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="682" y="418.25"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="34" x="697" y="414.9482">WMS</text><!--MD5=[18b529e8861f60b94f103de9f771364a]
+link WMS to AdapterWMS--><path d="M691.3,427.9931 C678.84,436.5031 662.75,446.1931 647,451.9531 C550.84,487.0931 431.45,498.9331 360.73,502.9231 " fill="none" id="WMS-AdapterWMS" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[ac643bbfbcfcedfd37c4078670b85bdd]
+link Charging to ChargingController--><path d="M792.5,428.0131 C782.25,435.4131 770.06,444.1631 759,451.9531 C690.29,500.3631 608.42,556.3831 568.06,583.9031 " fill="none" id="Charging-ChargingController" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[9159e6ec8badd6985ee4a4ed06daae94]
+link ChargingController to Movement--><path d="M533.58,620.1331 C517.24,649.9231 483.83,710.8531 467.46,740.6931 " fill="none" id="ChargingController-Movement" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[91b105859e6b24b71016bd58a6434093]
+link Movement to SLAM--><path d="M450.66,740.6431 C439.37,712.3731 419,654.2831 419,602.9531 C419,312.9531 419,312.9531 419,312.9531 C419,257.2431 377.1,201.9731 353.2,174.9831 " fill="none" id="Movement-SLAM" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a1eedd6840e283be69ebf755e9acf103]
+link SLAM to Sensors--><path d="M365.57,156.9531 C377.37,156.9531 389.18,156.9531 400.98,156.9531 " fill="none" id="SLAM-Sensors" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[04f88c97a92927aebf2f8f3d4704df59]
+link Navigation to Pathfinding--><path d="M264.9747,156.9531 C264.9294,156.9531 264.8841,156.9531 264.8388,156.9531 C264.4765,156.9531 264.1141,156.9531 263.7517,156.9531 C260.8528,156.9531 257.9544,156.9531 255.0562,156.9531 C249.26,156.9531 243.465,156.9531 237.67,156.9531 " fill="none" id="Navigation-Pathfinding" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[24701f64e4aea07519f2ce38a39b486f]
+link Pathfinding to Map--><path d="M136.23,175.1331 C133.15,204.9231 126.86,265.8531 123.78,295.6931 " fill="none" id="Pathfinding-Map" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[00326f8a722529381acf3ec95ad948f1]
+link Pathfinding to Tasks--><path d="M155.96,175.1331 C187.1,204.9231 250.77,265.8531 281.96,295.6931 " fill="none" id="Pathfinding-Tasks" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[30f666077bc3f43549b4c74587b4e5f2]
+link Tasks to AdapterWMS--><path d="M300,332.1531 C300,368.3231 300,451.9131 300,487.9331 " fill="none" id="Tasks-AdapterWMS" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[a05700c3acc2e08ed37ca4421970ebbd]
+link AdapterWMS to Conditions--><path d="M300,524.1931 C300,541.1531 300,566.9031 300,583.8231 " fill="none" id="AdapterWMS-Conditions" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[8442b858608dbf387dd8d99344defb77]
+link Conditions to ChargingController--><path d="M383.53,601.9531 C407.51,601.9531 431.5,601.9531 455.48,601.9531 " fill="none" id="Conditions-ChargingController" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[cc40069632fdc03df4ab1ab4abf193b4]
 @startuml
-class Car {
-  +String model
-  +drive()
+title Система управления логистикой складского робота
+
+
+rectangle "Складской робот" {
+
+
+
+
+   component “Контроллер движения” as Movement
+ component “Контроллер зарядки” as ChargingController
+ component “Монитор состояния” as Conditions
+ component “Адаптер WMS” as AdapterWMS
+ component “Диспетчер задания” as Tasks
+ component “Планировщик маршрута” as Pathfinding
+component “Карта склада” as Map
+
+
+
+
+rectangle "Система навигации" as Navigation {
+  component "Управление сенсорами" as Sensors
+  component  “SLAM” as SLAM
 }
-class Engine
-Car - -> Engine
+}
+rectangle "Внешние системы" {
+  component "Зарядка" as Charging
+  component  “WMS” as WMS
+}
+
+
+WMS - - AdapterWMS
+Charging- - ChargingController
+ChargingController - - -Movement
+Movement - - SLAM
+SLAM - Sensors
+Navigation  - Pathfinding
+Pathfinding- - - Map
+Pathfinding- - - Tasks
+Tasks - - -AdapterWMS
+AdapterWMS - - Conditions
+Conditions - ChargingController
+
+
+
+
 @enduml
 
 PlantUML version 1.2020.02(Sun Mar 01 10:22:07 UTC 2020)
